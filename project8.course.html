@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css
+">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <title>DCU University</title>
+</head>
+<body>
+<section class="sub-header">
+<nav>
+
+    <a href="">
+<img src="pictures\eduford_img\logo.png" alt="logo">
+    </a> 
+    
+      <div class="nav-links" id="navLinks" >
+        <i class="fa fa-times" onclick="hideManu()" ></i>
+        <ul>
+          <li><a href="project8.edu.html">HOME</a></li>
+          <li><a href="project8.about.html">ABOUT</a></li>
+          <li><a href="project8.course.html">COURSE</a></li>
+          <li><a href="project8.blog.html">BLOG</a></li>
+          <li><a href="project8.contant.html">CONTANT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showManu()"></i>
+
+</nav>
+<h1>Our Courses</h1>
+
+</section>
+
+<!-- courses we provide -->
+
+<section class="courses">
+    <h1>Courses We Offer</h1>
+    <p>We provide courses related Software engineering devlopment.</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Diploma in Computer Science & Engineering</h3>
+        <p>This is the course who just started their journy in tech field.You can join us to learn with fun in easy way and in less time.</p>
+      </div>
+
+      <div class="course-col">
+        <h3>Degree in Computer Science & Engineering</h3>
+        <p>In this we provide some of basic and intermide knowladge make the student industery ready.</p>
+      </div>
+
+      <div class="course-col">
+        <h3>Master in Computer Science & Engineering</h3>
+        <p>This is Master Degree in some tech skills. Which You can choose according to Your interest.
+      </div>
+    </div>
+  </section>
+
+
+  <!-- facilities -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>These are some basic world class facilities</p>
+  
+    <div class="row">
+      <div class="facilities-col">
+        <img src="pictures\eduford_img\library.png" alt="library">
+        <h3>World Class Library</h3>
+        <p>This is Our worldclass library.where you can find any type of book to read,related to ypur stearm.</p>
+      </div>
+  
+      <div class="facilities-col">
+        <img src="pictures\eduford_img\basketball.png" alt="basketball">
+        <h3>Largest Play Ground</h3>
+        <p>There are different type of play ground of basketball,football and many more.</p>
+      </div>
+  
+      <div class="facilities-col">
+        <img src="pictures\eduford_img\cafeteria.png" alt="library">
+        <h3>Healthy Food</h3>
+        <p>There is a large cafeat area where you can enjoy your meal and can have fun with your friends.</p>
+      </div>
+    </div>
+  </section>
+  
+<!-- Footer -->
+
+<section class="footer">
+  <h2>About Us</h2>
+  <p>Making website is now one of the easiest thing in the world. You just need to learn <br> HTML,CSS,Javascript and you are now good to go.</p>
+
+  <div class="icons">
+   | <i class="fa fa-facebook" id="fb"></i> |
+    <i class="fa fa-twitter" id="tweet"></i> |
+    <i class="fa fa-instagram" id="insta"></i> |
+    <i class="fa fa-linkedin" id="linked"></i> |
+  </div>
+  <p class="copy">Made <i class="fa fa-copyright"> 2022 with EDUFORD</i></p>
+</section>
+
+<script>
+   
+var navLinks = document.getElementById("navLinks");
+
+function showManu(){
+  navLinks.style.right = "0";
+}
+
+function hideManu(){
+  navLinks.style.right = "-200px";
+}
+</script>
+</body>
+</html>
